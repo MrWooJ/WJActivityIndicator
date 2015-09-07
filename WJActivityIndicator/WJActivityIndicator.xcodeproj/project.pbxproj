@@ -14,6 +14,38 @@
 		A71E662B1B95D26C00F800EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71E662A1B95D26C00F800EE /* Images.xcassets */; };
 		A71E662E1B95D26C00F800EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71E662C1B95D26C00F800EE /* LaunchScreen.xib */; };
 		A71E663A1B95D26C00F800EE /* WJActivityIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A71E66391B95D26C00F800EE /* WJActivityIndicatorTests.m */; };
+		A738D8191B95E273009FDB26 /* WJActivityIndicatorShape.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8181B95E273009FDB26 /* WJActivityIndicatorShape.m */; };
+		A738D81C1B95F774009FDB26 /* WJActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D81B1B95F774009FDB26 /* WJActivityIndicatorView.m */; };
+		A738D81F1B95FA50009FDB26 /* WJAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D81E1B95FA50009FDB26 /* WJAnimationController.m */; };
+		A738D8221B95FAEE009FDB26 /* WJAIAnimationBallBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8211B95FAEE009FDB26 /* WJAIAnimationBallBeat.m */; };
+		A738D8251B95FC68009FDB26 /* WJAIAnimationBallClipRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8241B95FC68009FDB26 /* WJAIAnimationBallClipRotate.m */; };
+		A738D8281B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8271B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.m */; };
+		A738D82B1B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D82A1B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.m */; };
+		A738D82E1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D82D1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.m */; };
+		A738D8311B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8301B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.m */; };
+		A738D8341B95FCEE009FDB26 /* WJAIAnimationBallPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8331B95FCEE009FDB26 /* WJAIAnimationBallPulse.m */; };
+		A738D8371B95FD08009FDB26 /* WJAIAnimationBallPulseRise.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8361B95FD08009FDB26 /* WJAIAnimationBallPulseRise.m */; };
+		A738D83A1B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8391B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.m */; };
+		A738D83D1B95FD2D009FDB26 /* WJAIAnimationBallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D83C1B95FD2D009FDB26 /* WJAIAnimationBallRotate.m */; };
+		A738D8401B95FD5A009FDB26 /* WJAIAnimationBallScale.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D83F1B95FD5A009FDB26 /* WJAIAnimationBallScale.m */; };
+		A738D8431B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8421B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.m */; };
+		A738D8461B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8451B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.m */; };
+		A738D8491B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8481B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.m */; };
+		A738D84C1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D84B1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.m */; };
+		A738D84F1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D84E1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.m */; };
+		A738D8521B95FDFE009FDB26 /* WJAIAnimationBallZigZag.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8511B95FDFE009FDB26 /* WJAIAnimationBallZigZag.m */; };
+		A738D8551B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8541B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.m */; };
+		A738D8581B95FE2B009FDB26 /* WJAIAnimationBlank.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8571B95FE2B009FDB26 /* WJAIAnimationBlank.m */; };
+		A738D85B1B95FE39009FDB26 /* WJAIAnimationCubeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D85A1B95FE39009FDB26 /* WJAIAnimationCubeTransition.m */; };
+		A738D85E1B95FE51009FDB26 /* WJAIAnimationLineScale.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D85D1B95FE51009FDB26 /* WJAIAnimationLineScale.m */; };
+		A738D8611B95FE64009FDB26 /* WJAIAnimationLineScaleParty.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8601B95FE64009FDB26 /* WJAIAnimationLineScaleParty.m */; };
+		A738D8641B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8631B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.m */; };
+		A738D8671B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8661B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.m */; };
+		A738D86A1B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8691B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.m */; };
+		A738D86D1B95FED9009FDB26 /* WJAIAnimationPacman.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D86C1B95FED9009FDB26 /* WJAIAnimationPacman.m */; };
+		A738D8701B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D86F1B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.m */; };
+		A738D8731B95FF04009FDB26 /* WJAIAnimationSquareSpin.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8721B95FF04009FDB26 /* WJAIAnimationSquareSpin.m */; };
+		A738D8761B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.m in Sources */ = {isa = PBXBuildFile; fileRef = A738D8751B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +72,76 @@
 		A71E66331B95D26C00F800EE /* WJActivityIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJActivityIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71E66381B95D26C00F800EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A71E66391B95D26C00F800EE /* WJActivityIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJActivityIndicatorTests.m; sourceTree = "<group>"; };
+		A738D8171B95E273009FDB26 /* WJActivityIndicatorShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJActivityIndicatorShape.h; sourceTree = "<group>"; };
+		A738D8181B95E273009FDB26 /* WJActivityIndicatorShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJActivityIndicatorShape.m; sourceTree = "<group>"; };
+		A738D81A1B95F774009FDB26 /* WJActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJActivityIndicatorView.h; sourceTree = "<group>"; };
+		A738D81B1B95F774009FDB26 /* WJActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJActivityIndicatorView.m; sourceTree = "<group>"; };
+		A738D81D1B95FA50009FDB26 /* WJAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAnimationController.h; sourceTree = "<group>"; };
+		A738D81E1B95FA50009FDB26 /* WJAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAnimationController.m; sourceTree = "<group>"; };
+		A738D8201B95FAEE009FDB26 /* WJAIAnimationBallBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallBeat.h; sourceTree = "<group>"; };
+		A738D8211B95FAEE009FDB26 /* WJAIAnimationBallBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallBeat.m; sourceTree = "<group>"; };
+		A738D8231B95FC68009FDB26 /* WJAIAnimationBallClipRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallClipRotate.h; sourceTree = "<group>"; };
+		A738D8241B95FC68009FDB26 /* WJAIAnimationBallClipRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallClipRotate.m; sourceTree = "<group>"; };
+		A738D8261B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallClipRotateMultiple.h; sourceTree = "<group>"; };
+		A738D8271B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallClipRotateMultiple.m; sourceTree = "<group>"; };
+		A738D8291B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallClipRotatePulse.h; sourceTree = "<group>"; };
+		A738D82A1B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallClipRotatePulse.m; sourceTree = "<group>"; };
+		A738D82C1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallGridBeat.h; sourceTree = "<group>"; };
+		A738D82D1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallGridBeat.m; sourceTree = "<group>"; };
+		A738D82F1B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallGridPulse.h; sourceTree = "<group>"; };
+		A738D8301B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallGridPulse.m; sourceTree = "<group>"; };
+		A738D8321B95FCEE009FDB26 /* WJAIAnimationBallPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallPulse.h; sourceTree = "<group>"; };
+		A738D8331B95FCEE009FDB26 /* WJAIAnimationBallPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallPulse.m; sourceTree = "<group>"; };
+		A738D8351B95FD08009FDB26 /* WJAIAnimationBallPulseRise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallPulseRise.h; sourceTree = "<group>"; };
+		A738D8361B95FD08009FDB26 /* WJAIAnimationBallPulseRise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallPulseRise.m; sourceTree = "<group>"; };
+		A738D8381B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallPulseSync.h; sourceTree = "<group>"; };
+		A738D8391B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallPulseSync.m; sourceTree = "<group>"; };
+		A738D83B1B95FD2D009FDB26 /* WJAIAnimationBallRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallRotate.h; sourceTree = "<group>"; };
+		A738D83C1B95FD2D009FDB26 /* WJAIAnimationBallRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallRotate.m; sourceTree = "<group>"; };
+		A738D83E1B95FD5A009FDB26 /* WJAIAnimationBallScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallScale.h; sourceTree = "<group>"; };
+		A738D83F1B95FD5A009FDB26 /* WJAIAnimationBallScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallScale.m; sourceTree = "<group>"; };
+		A738D8411B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallScaleMultiple.h; sourceTree = "<group>"; };
+		A738D8421B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallScaleMultiple.m; sourceTree = "<group>"; };
+		A738D8441B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallScaleRipple.h; sourceTree = "<group>"; };
+		A738D8451B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallScaleRipple.m; sourceTree = "<group>"; };
+		A738D8471B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallScaleRippleMultiple.h; sourceTree = "<group>"; };
+		A738D8481B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallScaleRippleMultiple.m; sourceTree = "<group>"; };
+		A738D84A1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		A738D84B1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		A738D84D1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallTrianglePath.h; sourceTree = "<group>"; };
+		A738D84E1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallTrianglePath.m; sourceTree = "<group>"; };
+		A738D8501B95FDFE009FDB26 /* WJAIAnimationBallZigZag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallZigZag.h; sourceTree = "<group>"; };
+		A738D8511B95FDFE009FDB26 /* WJAIAnimationBallZigZag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallZigZag.m; sourceTree = "<group>"; };
+		A738D8531B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBallZigZagDeflect.h; sourceTree = "<group>"; };
+		A738D8541B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBallZigZagDeflect.m; sourceTree = "<group>"; };
+		A738D8561B95FE2B009FDB26 /* WJAIAnimationBlank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationBlank.h; sourceTree = "<group>"; };
+		A738D8571B95FE2B009FDB26 /* WJAIAnimationBlank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationBlank.m; sourceTree = "<group>"; };
+		A738D8591B95FE39009FDB26 /* WJAIAnimationCubeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationCubeTransition.h; sourceTree = "<group>"; };
+		A738D85A1B95FE39009FDB26 /* WJAIAnimationCubeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationCubeTransition.m; sourceTree = "<group>"; };
+		A738D85C1B95FE51009FDB26 /* WJAIAnimationLineScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationLineScale.h; sourceTree = "<group>"; };
+		A738D85D1B95FE51009FDB26 /* WJAIAnimationLineScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationLineScale.m; sourceTree = "<group>"; };
+		A738D85F1B95FE64009FDB26 /* WJAIAnimationLineScaleParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationLineScaleParty.h; sourceTree = "<group>"; };
+		A738D8601B95FE64009FDB26 /* WJAIAnimationLineScaleParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationLineScaleParty.m; sourceTree = "<group>"; };
+		A738D8621B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationLineScalePulseOut.h; sourceTree = "<group>"; };
+		A738D8631B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationLineScalePulseOut.m; sourceTree = "<group>"; };
+		A738D8651B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationLineScalePulseOutRapid.h; sourceTree = "<group>"; };
+		A738D8661B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationLineScalePulseOutRapid.m; sourceTree = "<group>"; };
+		A738D8681B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationLineSpinFadeLoader.h; sourceTree = "<group>"; };
+		A738D8691B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationLineSpinFadeLoader.m; sourceTree = "<group>"; };
+		A738D86B1B95FED9009FDB26 /* WJAIAnimationPacman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationPacman.h; sourceTree = "<group>"; };
+		A738D86C1B95FED9009FDB26 /* WJAIAnimationPacman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationPacman.m; sourceTree = "<group>"; };
+		A738D86E1B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationSemiCircleSpin.h; sourceTree = "<group>"; };
+		A738D86F1B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationSemiCircleSpin.m; sourceTree = "<group>"; };
+		A738D8711B95FF04009FDB26 /* WJAIAnimationSquareSpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationSquareSpin.h; sourceTree = "<group>"; };
+		A738D8721B95FF04009FDB26 /* WJAIAnimationSquareSpin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationSquareSpin.m; sourceTree = "<group>"; };
+		A738D8741B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAIAnimationTriangleSkewSpin.h; sourceTree = "<group>"; };
+		A738D8751B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAIAnimationTriangleSkewSpin.m; sourceTree = "<group>"; };
+		A7FDAAF21B9C7283005239A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7FDAAF41B9D5A98005239A6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		A7FDAAF61B9D5A9F005239A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A7FDAAF81B9D5AA5005239A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7FDAAFB1B9D5CC7005239A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7FDAAFD1B9D5E0B005239A6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				A71E661C1B95D26C00F800EE /* WJActivityIndicator */,
+				A7FDAAFA1B9D5AB8005239A6 /* Frameworks */,
 				A71E66361B95D26C00F800EE /* WJActivityIndicatorTests */,
 				A71E661B1B95D26C00F800EE /* Products */,
 			);
@@ -81,13 +184,10 @@
 		A71E661C1B95D26C00F800EE /* WJActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				A71E66211B95D26C00F800EE /* AppDelegate.h */,
-				A71E66221B95D26C00F800EE /* AppDelegate.m */,
-				A71E66241B95D26C00F800EE /* ViewController.h */,
-				A71E66251B95D26C00F800EE /* ViewController.m */,
-				A71E66271B95D26C00F800EE /* Main.storyboard */,
-				A71E662A1B95D26C00F800EE /* Images.xcassets */,
-				A71E662C1B95D26C00F800EE /* LaunchScreen.xib */,
+				A71E66461B95D78500F800EE /* Demo */,
+				A71E66451B95D2EA00F800EE /* Controller */,
+				A71E66441B95D2E300F800EE /* View */,
+				A71E66431B95D2D700F800EE /* Model */,
 				A71E661D1B95D26C00F800EE /* Supporting Files */,
 			);
 			path = WJActivityIndicator;
@@ -117,6 +217,118 @@
 				A71E66381B95D26C00F800EE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A71E66431B95D2D700F800EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A738D8201B95FAEE009FDB26 /* WJAIAnimationBallBeat.h */,
+				A738D8211B95FAEE009FDB26 /* WJAIAnimationBallBeat.m */,
+				A738D8231B95FC68009FDB26 /* WJAIAnimationBallClipRotate.h */,
+				A738D8241B95FC68009FDB26 /* WJAIAnimationBallClipRotate.m */,
+				A738D8261B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.h */,
+				A738D8271B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.m */,
+				A738D8291B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.h */,
+				A738D82A1B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.m */,
+				A738D82C1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.h */,
+				A738D82D1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.m */,
+				A738D82F1B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.h */,
+				A738D8301B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.m */,
+				A738D8321B95FCEE009FDB26 /* WJAIAnimationBallPulse.h */,
+				A738D8331B95FCEE009FDB26 /* WJAIAnimationBallPulse.m */,
+				A738D8351B95FD08009FDB26 /* WJAIAnimationBallPulseRise.h */,
+				A738D8361B95FD08009FDB26 /* WJAIAnimationBallPulseRise.m */,
+				A738D8381B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.h */,
+				A738D8391B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.m */,
+				A738D83B1B95FD2D009FDB26 /* WJAIAnimationBallRotate.h */,
+				A738D83C1B95FD2D009FDB26 /* WJAIAnimationBallRotate.m */,
+				A738D83E1B95FD5A009FDB26 /* WJAIAnimationBallScale.h */,
+				A738D83F1B95FD5A009FDB26 /* WJAIAnimationBallScale.m */,
+				A738D8411B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.h */,
+				A738D8421B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.m */,
+				A738D8441B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.h */,
+				A738D8451B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.m */,
+				A738D8471B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.h */,
+				A738D8481B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.m */,
+				A738D84A1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.h */,
+				A738D84B1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.m */,
+				A738D84D1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.h */,
+				A738D84E1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.m */,
+				A738D8501B95FDFE009FDB26 /* WJAIAnimationBallZigZag.h */,
+				A738D8511B95FDFE009FDB26 /* WJAIAnimationBallZigZag.m */,
+				A738D8531B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.h */,
+				A738D8541B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.m */,
+				A738D8561B95FE2B009FDB26 /* WJAIAnimationBlank.h */,
+				A738D8571B95FE2B009FDB26 /* WJAIAnimationBlank.m */,
+				A738D8591B95FE39009FDB26 /* WJAIAnimationCubeTransition.h */,
+				A738D85A1B95FE39009FDB26 /* WJAIAnimationCubeTransition.m */,
+				A738D85C1B95FE51009FDB26 /* WJAIAnimationLineScale.h */,
+				A738D85D1B95FE51009FDB26 /* WJAIAnimationLineScale.m */,
+				A738D85F1B95FE64009FDB26 /* WJAIAnimationLineScaleParty.h */,
+				A738D8601B95FE64009FDB26 /* WJAIAnimationLineScaleParty.m */,
+				A738D8621B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.h */,
+				A738D8631B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.m */,
+				A738D8651B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.h */,
+				A738D8661B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.m */,
+				A738D8681B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.h */,
+				A738D8691B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.m */,
+				A738D86B1B95FED9009FDB26 /* WJAIAnimationPacman.h */,
+				A738D86C1B95FED9009FDB26 /* WJAIAnimationPacman.m */,
+				A738D86E1B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.h */,
+				A738D86F1B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.m */,
+				A738D8711B95FF04009FDB26 /* WJAIAnimationSquareSpin.h */,
+				A738D8721B95FF04009FDB26 /* WJAIAnimationSquareSpin.m */,
+				A738D8741B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.h */,
+				A738D8751B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A71E66441B95D2E300F800EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A738D81A1B95F774009FDB26 /* WJActivityIndicatorView.h */,
+				A738D81B1B95F774009FDB26 /* WJActivityIndicatorView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A71E66451B95D2EA00F800EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A738D8171B95E273009FDB26 /* WJActivityIndicatorShape.h */,
+				A738D8181B95E273009FDB26 /* WJActivityIndicatorShape.m */,
+				A738D81D1B95FA50009FDB26 /* WJAnimationController.h */,
+				A738D81E1B95FA50009FDB26 /* WJAnimationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A71E66461B95D78500F800EE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A71E66211B95D26C00F800EE /* AppDelegate.h */,
+				A71E66221B95D26C00F800EE /* AppDelegate.m */,
+				A71E66241B95D26C00F800EE /* ViewController.h */,
+				A71E66251B95D26C00F800EE /* ViewController.m */,
+				A71E66271B95D26C00F800EE /* Main.storyboard */,
+				A71E662A1B95D26C00F800EE /* Images.xcassets */,
+				A71E662C1B95D26C00F800EE /* LaunchScreen.xib */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		A7FDAAFA1B9D5AB8005239A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7FDAAFD1B9D5E0B005239A6 /* CoreFoundation.framework */,
+				A7FDAAFB1B9D5CC7005239A6 /* CoreGraphics.framework */,
+				A7FDAAF81B9D5AA5005239A6 /* Foundation.framework */,
+				A7FDAAF61B9D5A9F005239A6 /* QuartzCore.framework */,
+				A7FDAAF41B9D5A98005239A6 /* libc++.dylib */,
+				A7FDAAF21B9C7283005239A6 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +431,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A738D8731B95FF04009FDB26 /* WJAIAnimationSquareSpin.m in Sources */,
+				A738D8311B95FCD5009FDB26 /* WJAIAnimationBallGridPulse.m in Sources */,
+				A738D82E1B95FCB9009FDB26 /* WJAIAnimationBallGridBeat.m in Sources */,
+				A738D8431B95FD6A009FDB26 /* WJAIAnimationBallScaleMultiple.m in Sources */,
+				A738D8611B95FE64009FDB26 /* WJAIAnimationLineScaleParty.m in Sources */,
 				A71E66261B95D26C00F800EE /* ViewController.m in Sources */,
+				A738D83A1B95FD1A009FDB26 /* WJAIAnimationBallPulseSync.m in Sources */,
+				A738D8761B95FF1E009FDB26 /* WJAIAnimationTriangleSkewSpin.m in Sources */,
+				A738D8671B95FEA9009FDB26 /* WJAIAnimationLineScalePulseOutRapid.m in Sources */,
+				A738D8641B95FE76009FDB26 /* WJAIAnimationLineScalePulseOut.m in Sources */,
+				A738D8701B95FEF0009FDB26 /* WJAIAnimationSemiCircleSpin.m in Sources */,
+				A738D86A1B95FEC6009FDB26 /* WJAIAnimationLineSpinFadeLoader.m in Sources */,
+				A738D8191B95E273009FDB26 /* WJActivityIndicatorShape.m in Sources */,
+				A738D81C1B95F774009FDB26 /* WJActivityIndicatorView.m in Sources */,
+				A738D86D1B95FED9009FDB26 /* WJAIAnimationPacman.m in Sources */,
+				A738D8491B95FD9F009FDB26 /* WJAIAnimationBallScaleRippleMultiple.m in Sources */,
+				A738D8551B95FE13009FDB26 /* WJAIAnimationBallZigZagDeflect.m in Sources */,
+				A738D85E1B95FE51009FDB26 /* WJAIAnimationLineScale.m in Sources */,
+				A738D84C1B95FDC3009FDB26 /* WJAIAnimationBallSpinFadeLoader.m in Sources */,
 				A71E66231B95D26C00F800EE /* AppDelegate.m in Sources */,
+				A738D8341B95FCEE009FDB26 /* WJAIAnimationBallPulse.m in Sources */,
+				A738D8371B95FD08009FDB26 /* WJAIAnimationBallPulseRise.m in Sources */,
+				A738D83D1B95FD2D009FDB26 /* WJAIAnimationBallRotate.m in Sources */,
+				A738D81F1B95FA50009FDB26 /* WJAnimationController.m in Sources */,
+				A738D8581B95FE2B009FDB26 /* WJAIAnimationBlank.m in Sources */,
+				A738D8251B95FC68009FDB26 /* WJAIAnimationBallClipRotate.m in Sources */,
+				A738D8461B95FD83009FDB26 /* WJAIAnimationBallScaleRipple.m in Sources */,
 				A71E66201B95D26C00F800EE /* main.m in Sources */,
+				A738D84F1B95FDD5009FDB26 /* WJAIAnimationBallTrianglePath.m in Sources */,
+				A738D8281B95FC86009FDB26 /* WJAIAnimationBallClipRotateMultiple.m in Sources */,
+				A738D8521B95FDFE009FDB26 /* WJAIAnimationBallZigZag.m in Sources */,
+				A738D8401B95FD5A009FDB26 /* WJAIAnimationBallScale.m in Sources */,
+				A738D8221B95FAEE009FDB26 /* WJAIAnimationBallBeat.m in Sources */,
+				A738D82B1B95FCA1009FDB26 /* WJAIAnimationBallClipRotatePulse.m in Sources */,
+				A738D85B1B95FE39009FDB26 /* WJAIAnimationCubeTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
