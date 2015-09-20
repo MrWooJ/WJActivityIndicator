@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+static const NSInteger AnimationTypesCount = 28;
+
+@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
 
 @end
